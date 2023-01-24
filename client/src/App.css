@@ -1,0 +1,99 @@
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+::-webkit-scrollbar-track {
+background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+background: linear-gradient(rgb(255, 170, 0),rgb(253, 38, 5));
+border-radius: 30px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+.App {
+  /* margin: 10px; */
+}
+
+.flex-row{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flex-column{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+
+.card-image{
+  width:100px;
+  /* padding: 15px; */
+  /* border: 2px solid black; */
+  /* border-radius: 4px; */
+  height:100px;
+}
+
+body{
+  background:linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243));
+}
+.card{
+
+  max-width:28%;
+  /* padding: 100px; */
+  height:500px ;
+  overflow-y: scroll;
+  /* margin-right: 20px; */
+  
+  padding: 20px;
+  margin-bottom: 10px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 5px black;
+
+}
+
+.card-title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  /* background-color: red; */
+  /* padding: 3px; */
+}
+.card-desc{
+  font-size: 14px;
+  font-weight: 390;
+}
+.card-rating{
+  width:30px;
+  margin-right: 3px;
+}
+
+.rating-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-price{
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+  .card{
+    max-width:70%;
+  }
+}

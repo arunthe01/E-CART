@@ -1,0 +1,10 @@
+.nav{
+    background:linear-gradient(grey,black);
+    color: rgb(228, 220, 220);
+    padding: 10px;
+    text-align: start;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-style:bold ;
+}
