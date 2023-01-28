@@ -1,10 +1,35 @@
 .nav{
     background:linear-gradient(grey,black);
     color: rgb(228, 220, 220);
+    max-width: 100vw;
     padding: 10px;
-    text-align: start;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: x-large;
     font-weight: 600;
     margin-bottom: 30px;
     font-style:bold ;
 }
+
+.links{
+    /* width: 20%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.link{
+    font-size: 12px;
+    margin-right: 10px;
+    color: rgb(189, 201, 211);
+    border-right: 3px;
+}
+
+.link:hover{
+    color:rgba(255,255,255,0.4)
+}
+
+
